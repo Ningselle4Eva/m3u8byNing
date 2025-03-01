@@ -1,31 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>EntropyOTT</title>
+    <meta http-equiv="refresh" content="3;url=https://google.com">
+    <title>Access Denied</title>
 </head>
 <body>
-
-<script>
-window.location.href="https://entropy-xxx.vercel.app/"
-
-location /hls/ {
-    secure_link $arg_st,$arg_e;
-    secure_link_md5 "secret_key$arg_st$arg_e";
-
-    if ($secure_link = "") {
-        return 403;
-    }
-
-    if ($secure_link = "0") {
-        return 410;
-    }
-}
-
-if ($http_user_agent ~* (wget|curl|youtube-dl|JDownloader|IDM)) {
-    return 403;
-}
-</script>
+    <h1>404 Not Found</h1>
+    <p>This page does not exist.</p>
+</body>
+</html>
 
 #EXTM3U billed-msg="✧EntropyOTT - Ning Yizhuo!!✧"
 #EXTINF:-1 ch-number="1" group-title="Local" tvg-logo="https://i.imgur.com/GEUL42b.png",✶⋆.˚ Kapamilya Channel
@@ -253,5 +236,3 @@ https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/tvup_prd.mpd
 
 #EXTINF:-1 ch-number="42" group-title="Local" tvg-logo="https://i.imgur.com/TtthOvy.jpeg",✶⋆.˚ SMNI
 https://ott.studentsdemo.com/stream/phcathenatv/smni/master.m3u8?u=phc&p=1ed3395bba4d481a74e631943df9643663da8f300a8edececcb8b7da46349f01
-</body>
-</html>
