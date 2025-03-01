@@ -9,23 +9,6 @@
 
 <script>
 window.location.href="https://entropy-xxx.vercel.app/"
-
-location /hls/ {
-    secure_link $arg_st,$arg_e;
-    secure_link_md5 "secret_key$arg_st$arg_e";
-
-    if ($secure_link = "") {
-        return 403;
-    }
-
-    if ($secure_link = "0") {
-        return 410;
-    }
-}
-
-if ($http_user_agent ~* (wget|curl|youtube-dl|JDownloader|IDM)) {
-    return 403;
-}
 </script>
 </body>
 </html>
