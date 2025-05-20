@@ -1,0 +1,7 @@
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=50c0ac86d9445b3a855fcabae7538aaf:cf79083218d809d379c2f64acbde561f
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
+#EXTHTTP:{"cookie":"__hdnea__=st=1747743931~exp=1747830331~acl=/*~hmac=7430c3dafb93c8379001820dc90047b4bfb52877693c45f8ab11574714e2b53c"}
+#EXTINF:-1 tvg-id="1226" tvg-name="Nick HD+" tvg-type="Kids" group-title="Kids" tvg-language="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nick_HD_Plus.png",Nick HD+
+https://cors.jugorder.de/https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_HD_Plus_BTS/output/index.mpd
